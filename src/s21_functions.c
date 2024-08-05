@@ -25,10 +25,24 @@ printf(testmemset);
 
 printf("\ntest-strncat\n");
 
-
 char testcat[50] = "123 ";
 char testcat2[50] = "456 ";
 printf(s21_strncat(testcat,testcat2,s21_strlen(testcat)+s21_strlen(testcat2)));
+
+printf("\ntest-strcpy\n");
+
+// *testcat = s21_strcpy(testcat,testcat2);
+char teststrcpy[50];
+char* teststrcpy2="0-0-0";
+s21_strcpy(teststrcpy,teststrcpy2);
+printf("%s\n",teststrcpy);
+
+ printf("%s\n", s21_strchr(teststrcpy, '0'));
+
+
+
+
+
   return 1;
 }
 
@@ -81,7 +95,6 @@ void *s21_memset(void *str, int c, s21_size_t n) // Копирует симво�
   while (n--) *str_ptr++ = (unsigned char)c;
   return str;
 }
-
 
 char *s21_strncat(char *dest, const char *src, s21_size_t n) // Добавляет строку, на которую указывает src, в конец строки, на которую указывает dest, длиной до n символов.
  {

@@ -22,6 +22,6 @@ char *s21_strrchr(const char *str, int c);//Выполняет поиск пос
 char *s21_strstr(const char *haystack, const char *needle);//Находит первое вхождение всей строки needle (не включая завершающий нулевой символ), которая появляется в строке haystack.
 char *s21_strtok(char *str, const char *delim);//Разбивает строку str на ряд токенов, разделенных delim.
 
-
+char* s21_strcpy(char* dest, const char* src);
 
 #endif //SRC_S21_STRING_H_
