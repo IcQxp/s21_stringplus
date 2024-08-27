@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Илья/Файлики/Коды/s21_stringplus/src",
-      "program": "d:/Илья/Файлики/Коды/s21_stringplus/src/build/Debug/outDebug",
+      "cwd": "d:/Илья/Файлики/Коды/s21_stringplus",
+      "program": "d:/Илья/Файлики/Коды/s21_stringplus/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
